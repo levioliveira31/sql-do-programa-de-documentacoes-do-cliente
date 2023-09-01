@@ -1,0 +1,15 @@
+# sql-do-programa-de-documentacoes-do-cliente
+CREATE TABLE `senac`.`cliente ` (`ID` INT NOT NULL ,
+                    `Nome` VARCHAR(50) NOT NULL ,
+                    `Ecivil` VARCHAR(50) NOT NULL ,
+                    `NomeSocial` VARCHAR(50) NOT NULL ,
+                    `genero` VARCHAR(10) NOT NULL ,
+                    `RG` VARCHAR(11) NOT NULL ,
+                    `CPF` VARCHAR(15) NOT NULL ,
+                    `CEP` VARCHAR(9) NOT NULL ,
+                    `Endereco` VARCHAR(50) NOT NULL ,
+                    `Complemento` VARCHAR(20) NOT NULL ,
+                    `Cidade` VARCHAR(20) NOT NULL ,
+                    `Email` VARCHAR(20) NOT NULL ,
+                    `UF` VARCHAR(2) NOT NULL ,
+                    `Fone` VARCHAR(17) NOT NULL ) ENGINE = InnoDB;
